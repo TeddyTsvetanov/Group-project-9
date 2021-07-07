@@ -1,4 +1,4 @@
-package B22Group9;
+package b22Group9;
 
 public class TeddyWorking {
     public static void main(String[] args) {
