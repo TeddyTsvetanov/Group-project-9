@@ -1,4 +1,4 @@
-package b22Group9.Pages;
+package b22Group9.pages;
 
 import b22Group9.utilities.Driver;
 import org.openqa.selenium.WebElement;
