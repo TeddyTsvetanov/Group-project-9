@@ -1,5 +1,7 @@
 package b22Group9.utilities;
 
+import org.openqa.selenium.By;
+
 public class BrowserUtils {
      /*
     Method that will accept int  arg
@@ -23,9 +25,10 @@ public class BrowserUtils {
         } catch (InterruptedException e) {
 
             System.out.println("something happened in the sleep method");
-
         }
-
     }
 
+       public static void clickLinkByText(String linkText){
+        Driver.getDriver().findElement(By.xpath("//a[.='"+linkText+"']")).click();
+       }
 }
